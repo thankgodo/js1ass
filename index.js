@@ -22,8 +22,8 @@ alert(`Your full name is; ${nam1}  ${nam2}, and your username is; ${nam3}`);
 const nam1s = nam1.slice(0,4);
 const nam2s = nam2.slice(0,1)
 const unam = nam1s + nam2s
-alert(`Your CapacityBay username is; ${unam}`);
+alert(`Your CapacityBay UserId is; ${unam}`);
 
 const lower = unam.toLocaleLowerCase();
 
-alert(`Your lower case CapacityBay username is; ${lower}`);
+alert(`Your lower case CapacityBay UserId is; ${lower}`);
